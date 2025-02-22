@@ -1,66 +1,42 @@
-# Solar Energy Forecasting and PV System Modeling
+# Python for Data Analysts
 
 ## Project Overview
-This project focuses on forecasting solar radiation and modeling energy generation using photovoltaic (PV) systems. The methodology involves predicting **clear sky radiation** using weather variables, followed by predicting **cloudy sky radiation** based on the clear sky radiation and additional meteorological parameters. The study is conducted for **annual forecasting**, as well as separate analyses for the **wet season** and **dry season**.
+This repository is designed for **beginners** who want to learn **Python for Data Analysis** from the ground up. Unlike traditional data analysis tutorials that heavily rely on **pandas** and **NumPy**, this course emphasizes **pure Python** for data manipulation and analysis, with minimal use of NumPy (only for generating arrays in a few cases).
 
-Finally, the predicted solar radiation is used to model the **actual energy output** of a PV system, incorporating solar panel characteristics and inverter parameters to estimate energy production.
+This project is part of DataClax **Data Analytics Module** but is open-source, making it accessible to anyone eager to learn Python for data analytics. Inspired by "[Python Crash Course](https://www.amazon.com/Python-Crash-Course-2nd-Edition/dp/1593279280)"—by Eric Matthes, a book that helped me overcome my fear of programming —I created this repository to simplify the learning process and help others overcome their fear of programming, just as I did.
 
-This research was conducted as part of my MSc Energy Economics dissertation at the **Centre for Petroleum, Energy Economics, and Law (CPEEL), University of Ibadan**.
+## What You'll Learn
+This repository covers fundamental Python concepts essential for **data analysts**, including:
+- **Variables and Data Types**
+- **Data Structures** (Lists, Tuples, Dictionaries, Sets)
+- **Functions and Classes**
+- **Modules, libraries and Packages**
+- **Basic Data Analysis** (without pandas)
+- **Data Visualization** (with Matplotlib, Seaborn and Plotly)
+- **Regular Expressions** (Regex)
+  
 
-## Methodology
-### 1. Predicting Clear Sky Radiation
-- Utilized weather variables (temperature, humidity, wind speed, etc.).
-- Applied **Machine Learning models** to estimate clear sky solar radiation.
+## Why This Project?
+Many beginners struggle with Python when starting their data analytics journey. This repository attempts to provide a **simple, beginner-friendly** approach to learning Python **before diving into libraries like pandas, NumPy, or SQL**. By focusing on pure Python first, learners build a **solid foundation** that makes transitioning to advanced tools much easier.
 
-### 2. Predicting Cloudy Sky Radiation
-- Used **predicted clear sky radiation** alongside weather variables.
-- Developed separate models for **annual, wet season, and dry season** forecasts.
-
-### 3. Model Selection and Validation
-- The **Random Forest model** was the best-performing model.
-- Used the **Random Forest model** to make predictions on the **validation dataset (year 2022)**.
-- The original dataset spans from **2005 to 2022**, with training and test data from **2005 to 2021**.
-- Performance metrics were computed by comparing predictions against the actual 2022 data.
-- The validated predictions were then used as input for **PVLIB** to model energy generation.
-
-### 4. PV System Energy Modeling
-- Converted predicted solar radiation into **actual energy output**.
-- Integrated **solar panel specifications** and **inverter efficiency parameters** using PV modeling libraries.
-
-## Data Source
-- **Dataset:** Retrieved from the **National Solar Radiation Database (NSRDB)** of **NREL (National Renewable Energy Laboratory).**
-
-## Technologies Used
-- **Python** (pandas, NumPy, scikit-learn, TensorFlow, PVLIB)
-- **Machine Learning** (Random Forest, LSTM, CNN)
-- **Data Visualization** (Matplotlib, Seaborn)
-- **Solar Energy Simulation** (PVLIB)
-
-## Repository Structure
-```
-/solar-energy-forecasting
-│── datasets/            # Raw and processed datasets
-│── notebooks/           # Jupyter notebooks for analysis and modeling
-│── results/             # Model outputs, evaluation reports, and visualizations
-│── README.md            # Project description
-```
 
 ## How to Use
 1. Clone this repository:
    ```sh
-   git clone https://github.com/peterobarotu/Solar_Energy_forecasting.git
+   git clone https://github.com/peterobarotu/Python-for-Data-Analysts.git
    ```
-2. Install dependencies:
+2. Navigate into the project folder:
    ```sh
-   pip install -r requirements.txt
+   cd Python-for-Data-Analysts
    ```
-3. Run the Jupyter notebooks in the `/notebooks/` directory to reproduce results.
+3. Run the lessons in Jupyter Notebook.
+
+## Open Source & Contribution
+This project is **open-source** as a way of giving back to the community. Everyone is welcome to contribute, suggest improvements, or use it as a stepping stone to their Python journey.
 
 ## Author
-**Obarotu Peter Urhuerhi**
-MSc Energy Economics, CPEEL, University of Ibadan  
-LinkedIn: [Your LinkedIn Profile]  
-GitHub: [Your GitHub Profile]  
-
-
+**Obarotu Peter Urhuerhi**  
+Founder, DataClax  
+LinkedIn:http://www.linkedin.com/in/obarotu-urhuerhi-0b8899225   
+GitHub:https://github.com/peterobarotu 
 
