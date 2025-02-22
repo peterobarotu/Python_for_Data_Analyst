@@ -23,11 +23,11 @@ Many beginners struggle with Python when starting their data analytics journey. 
 ## How to Use
 1. Clone this repository:
    ```sh
-   git clone https://github.com/peterobarotu/Python-for-Data-Analysts.git
+   git clone https://github.com/peterobarotu/Python_for_Data_Analysts.git
    ```
 2. Navigate into the project folder:
    ```sh
-   cd Python-for-Data-Analysts
+   cd Python_for_Data_Analysts
    ```
 3. Run the lessons in Jupyter Notebook.
 
@@ -37,6 +37,6 @@ This project is **open-source** as a way of giving back to the community. Everyo
 ## Author
 **Obarotu Peter Urhuerhi**  
 Founder, DataClax  
-LinkedIn:http://www.linkedin.com/in/obarotu-urhuerhi-0b8899225   
-GitHub:https://github.com/peterobarotu 
+LinkedIn: http://www.linkedin.com/in/obarotu-urhuerhi-0b8899225   
+GitHub: https://github.com/peterobarotu 
 
