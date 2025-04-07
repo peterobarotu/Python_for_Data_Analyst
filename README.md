@@ -17,7 +17,7 @@ This repository covers fundamental Python concepts essential for **data analysts
   
 
 ## Why This Project?
-Many beginners struggle with Python when starting their data analytics journey. This repository attempts to provide a **simple, beginner-friendly** approach to learning Python **before diving into libraries like pandas, NumPy, or SQL**. By focusing on pure Python first, learners build a **solid foundation** that makes transitioning to advanced tools much easier.
+Many beginners struggle with Python when starting their data analytics journey. This repository attempts to provide a **simple, beginner-friendly** approach to learning Python before diving into libraries like pandas, NumPy, or SQL. By focusing on pure Python first, learners build a solid foundation that makes transitioning to advanced tools much easier.
 
 
 ## How to Use
